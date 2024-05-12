@@ -1,17 +1,17 @@
-- Get-AzSecurityAlert: Obtém alertas de segurança para sua assinatura do Azure.
-- Get-AzSecurityBaseline: Recupera a linha de base de segurança para sua assinatura do Azure. 
-- Get-AzSecurityContact: Obtém as informações de contato de segurança da sua assinatura do Azure. 
-- Get-AzSecurityCenterContact: Obtém as configurações de contato de segurança do Security Center.
-- Get-AzSecurityPolicy: Obtém as políticas de segurança para sua assinatura do Azure.
-- Get-AzSecuritySetting: Obtém as configurações de segurança para uma assinatura do Azure.
-- Get-AzSecurityTask: Obtém as tarefas de segurança para uma assinatura do Azure.
-- Get-AzSecurityTaskList: Obtém listas de tarefas de segurança para uma assinatura do Azure.
-- New-AzSecurityAlert: Cria um novo alerta de segurança.
-- New-AzSecurityContact: Cria um novo contato de segurança para sua assinatura do Azure.
-- New-AzSecurityPolicyAssignment: Atribui uma política de segurança a uma assinatura do Azure.
-- Remove-AzSecurityContact: Remove um contato de segurança da sua assinatura do Azure.
-- Remove-AzSecurityPolicyAssignment: Remove uma atribuição de política de segurança de uma assinatura do Azure.
-- Set-AzSecurityAlert: Define as propriedades de um alerta de segurança.
-- Set-AzSecurityCenterContact: Define as configurações de contato de segurança do Security Center.
-- Set-AzSecurityPolicyAssignment: Atualiza as configurações de uma atribuição de política de segurança.
-- Update-AzSecurityAlertRule: Atualiza as regras de um alerta de segurança.
+- Get-AzSecurityAlert   **Obtém alertas de segurança para sua assinatura do Azure**
+- Get-AzSecurityBaseline   **Recupera a linha de base de segurança para sua assinatura do Azure**
+- Get-AzSecurityContact   **Obtém as informações de contato de segurança da sua assinatura do Azure**
+- Get-AzSecurityCenterContact   **Obtém as configurações de contato de segurança do Security Center**
+- Get-AzSecurityPolicy   **Obtém as políticas de segurança para sua assinatura do Azure**
+- Get-AzSecuritySetting   **Obtém as configurações de segurança para uma assinatura do Azure**
+- Get-AzSecurityTask   **Obtém as tarefas de segurança para uma assinatura do Azure**
+- Get-AzSecurityTaskList   **Obtém listas de tarefas de segurança para uma assinatura do Azure**
+- New-AzSecurityAlert   **Cria um novo alerta de segurança**
+- New-AzSecurityContact   **Cria um novo contato de segurança para sua assinatura do Azure**
+- New-AzSecurityPolicyAssignment   **Atribui uma política de segurança a uma assinatura do Azure**
+- Remove-AzSecurityContact   **Remove um contato de segurança da sua assinatura do Azure**
+- Remove-AzSecurityPolicyAssignment   **Remove uma atribuição de política de segurança de uma assinatura do Azure**
+- Set-AzSecurityAlert   **Define as propriedades de um alerta de segurança**
+- Set-AzSecurityCenterContact   **Define as configurações de contato de segurança do Security Center**
+- Set-AzSecurityPolicyAssignment   **Atualiza as configurações de uma atribuição de política de segurança**
+- Update-AzSecurityAlertRule   **Atualiza as regras de um alerta de segurança**
