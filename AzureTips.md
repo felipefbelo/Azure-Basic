@@ -3,11 +3,11 @@
 Este repositório contém cmdlets do PowerShell para desenvolvedores e administradores desenvolverem, implantarem,
 administrar e gerenciar recursos do Microsoft Azure.
 
-The Az PowerShell module is preinstalled in [Azure Cloud Shell][AzureCloudShell].
+O módulo Az PowerShell está pré-instalado em [Azure Cloud Shell][AzureCloudShell].
 
-## Modules
+## Modulos
 
-The following table contains a list of the Azure PowerShell rollup modules.
+A tabela a seguir contém uma lista dos módulos cumulativos do Azure PowerShell.
 
 Description       | Module Name  | PowerShell Gallery Link
 ----------------- | ------------ | -----------------------
@@ -17,11 +17,11 @@ Azure PowerShell with preview modules | `AzPreview`                             
 For a complete list of the modules found in this repository, see
 [Azure PowerShell Modules][AzurePowerShellModules].
 
-## Installation
+## Instalação
 
 ### PowerShell Gallery
 
-Run the following command in a PowerShell session to install the Az PowerShell module:
+Execute o seguinte comando numa sessão PowerShell para instalar o módulo Az PowerShell:
 
 ```powershell
 Install-Module -Name Az -Scope CurrentUser -Repository PSGallery -Force
@@ -46,7 +46,7 @@ the previous versions.
 For more information on installing Azure PowerShell, see the
 [installation guide][InstallationGuide].
 
-## Usage
+## Uso
 
 ### Log into Azure
 
