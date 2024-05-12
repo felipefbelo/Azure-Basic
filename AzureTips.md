@@ -1,6 +1,4 @@
-<meta name="google-site-verification" content="tZgbB2s-hTI0IePQQRCjHqL_Vf0j_XJmehXAHJerrn4" />
 
-# ![AzureIcon] ![PowershellIcon] Microsoft Azure PowerShell
 
 Este repositório contém cmdlets do PowerShell para desenvolvedores e administradores desenvolverem, implantarem,
 administrar e gerenciar recursos do Microsoft Azure.
@@ -159,26 +157,7 @@ have issues with Azure PowerShell or Azure services.
 If there is a feature you would like to see in Azure PowerShell, use the
 [`Send-Feedback`][SendFeedback] cmdlet, or file an issue in our [GitHub repo][GitHubRepo].
 
-## Contributing
-For details on contributing to this repository, see the [contributing guide][Contributing] and the [_Azure PowerShell Developer Guide_][DeveloperGuide].
 
-This project welcomes contributions and suggestions. Most contributions require you to agree to a Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us the rights to use your contribution. For details, visit
-https://cla.microsoft.com.
-
-When you submit a pull request, a CLA-bot will automatically determine whether you need to provide a CLA and decorate the PR appropriately (e.g., label, comment). Simply follow the instructions provided by the bot. You will only need to do this once across all repositories using our CLA.
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
-
-## Telemetry
-
-Azure PowerShell collects telemetry data by default. Microsoft aggregates collected data to identify
-patterns of usage to identify common issues and to improve the experience of Azure PowerShell.
-Microsoft Azure PowerShell does not collect any private or personal data. For example, the usage
-data helps identify issues such as cmdlets with low success and helps prioritize our work. While we
-appreciate the insights this data provides, we also understand that not everyone wants to send usage
-data. You can disable data collection with the
-[`Disable-AzDataCollection`][DisableAzDataCollection] cmdlet. To learn more, see our
-[privacy statement][PrivacyStatement].
 
 ## Learn More
 
