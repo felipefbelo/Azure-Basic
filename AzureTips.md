@@ -165,9 +165,6 @@ If there is a feature you would like to see in Azure PowerShell, use the
 * [PowerShell Documentation][PowerShellDocs]
 
 ---
-_This project has adopted the [Microsoft Open Source Code of Conduct][CodeOfConduct]. For more
-information see the [Code of Conduct FAQ][CodeOfConductFaq] or contact
-[opencode@microsoft.com][OpenCodeEmail] with any additional questions or comments._
 
 <!-- References -->
 
