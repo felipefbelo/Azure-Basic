@@ -141,22 +141,6 @@ Get-Help -Name Get-AzSubscription -Online
 
 For detailed instructions on using Azure PowerShell, see the [getting started guide][GettingStartedGuide].
 
-## Reporting Issues and Feedback
-
-### Issues
-
-If you find any bugs when using Azure PowerShell, file an issue in our [GitHub repo][GitHubRepo].
-Fill out the issue template with the appropriate information.
-
-Alternatively, see [Azure Community Support][AzureCommunitySupport] if you
-have issues with Azure PowerShell or Azure services.
-
-### Feedback
-
-If there is a feature you would like to see in Azure PowerShell, use the
-[`Send-Feedback`][SendFeedback] cmdlet, or file an issue in our [GitHub repo][GitHubRepo].
-
-
 
 ## Learn More
 
