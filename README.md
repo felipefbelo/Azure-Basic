@@ -18,7 +18,7 @@ Para a lista completa de módulos segue o link:
 
 ## Instalação
 
-### PowerShell Gallery
+### PowerShell Galeria
 
 Execute o seguinte comando numa sessão PowerShell para instalar o módulo Az PowerShell:
 
@@ -66,9 +66,9 @@ Connect-AzAccount -Environment AzureChinaCloud
 
 ### Session context
 
-A session context persists login information across Azure PowerShell modules and PowerShell
-instances. Use the [`Get-AzContext`][GetAzContext] cmdlet to view the context you are using in the
-current session. The results contain the Azure tenant and subscription.
+Um contexto de sessão persiste informações de login nos módulos do Azure PowerShell e no PowerShell
+instâncias. Use the [`Get-AzContext`][GetAzContext] cmdlet para visualizar o contexto que você está usando no
+sessão atual. Os resultados contêm o inquilino e a subscrição do Azure.
 
 ```powershell
 # Get the Azure PowerShell context for the current PowerShell session
@@ -103,8 +103,8 @@ For details on Azure PowerShell contexts, see [Azure PowerShell context objects]
 
 ### Discovering cmdlets
 
-Use `Get-Command` to discover cmdlets within a specific module, or cmdlets that follow a specific
-search pattern:
+Use `Get-Command` para descobrir cmdlets dentro de um módulo específico ou cmdlets que seguem um módulo específico
+padrão de pesquisa:
 
 ```powershell
 # List all cmdlets in the Az.Accounts module
@@ -117,9 +117,9 @@ Get-Command -Name '*VirtualNetwork*'
 Get-Command -Module Az.Compute -Name '*VM*'
 ```
 
-### Cmdlet help and examples
+### Cmdlet Exemplos e ajuda:
 
-To view the help content for a cmdlet, use the `Get-Help` cmdlet:
+Para visualizar o conteúdo de ajuda de um cmdlet, use o cmdlet `Get-Help`:
 
 ```powershell
 # View basic help information for Get-AzSubscription
@@ -135,10 +135,10 @@ Get-Help -Name Get-AzSubscription -Full
 Get-Help -Name Get-AzSubscription -Online
 ```
 
-For detailed instructions on using Azure PowerShell, see the [getting started guide][GettingStartedGuide].
+Para obter instruções detalhadas sobre como usar o Azure PowerShell, consulte o [getting started guide][GettingStartedGuide].
 
 
-## Learn More
+## Leia Mais
 
 * [Microsoft Azure Documentation][MicrosoftAzureDocs]
 * [PowerShell Documentation][PowerShellDocs]
