@@ -13,7 +13,7 @@ Description       | Module Name  | PowerShell Gallery Link
 Azure PowerShell  | `Az`         | [![Az]][AzGallery]
 Azure PowerShell with preview modules | `AzPreview`                             | [![AzPreview]][AzPreviewGallery]
 
-For a complete list of the modules found in this repository, see
+Para a lista completa de módulos segue o link:
 [Azure PowerShell Modules][AzurePowerShellModules].
 
 ## Instalação
@@ -26,23 +26,19 @@ Execute o seguinte comando numa sessão PowerShell para instalar o módulo Az Po
 Install-Module -Name Az -Scope CurrentUser -Repository PSGallery -Force
 ```
 
-[The latest version of PowerShell 7][PowerShellCore] is the recommended version of PowerShell for
-use with the Az PowerShell module on all platforms including Windows, Linux, and macOS. This module
-also runs on Windows PowerShell 5.1 with [.NET Framework 4.7.2][DotNetFramework] or higher.
-
 The `Az` module replaces `AzureRM`. You should not install `Az` side-by-side with `AzureRM`.
 
-If you have an earlier version of the Azure PowerShell module installed from the PowerShell Gallery
-and would like to update to the latest version, run the following command in a PowerShell session:
+Se você tiver uma versão anterior do módulo Azure PowerShell instalada na Galeria do PowerShell
+e gostaria de atualizar para a versão mais recente, execute o seguinte comando em uma sessão do PowerShell:
 
 ```powershell
 Update-Module -Name Az -Scope CurrentUser -Force
 ```
 
-`Update-Module` installs the new version side-by-side with previous versions. It does not uninstall
-the previous versions.
+`Update-Module` instala a nova versão lado a lado com as versões anteriores. Não desinstala
+as versões anteriores.
 
-For more information on installing Azure PowerShell, see the
+Para mais informações de instalação:
 [installation guide][InstallationGuide].
 
 ## Uso
